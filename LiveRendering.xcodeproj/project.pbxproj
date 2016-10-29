@@ -14,6 +14,7 @@
 		203DDCB61DBC22F800E2B559 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 203DDCB41DBC22F800E2B559 /* LaunchScreen.storyboard */; };
 		203DDCC11DBC22F800E2B559 /* LiveRenderingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 203DDCC01DBC22F800E2B559 /* LiveRenderingTests.swift */; };
 		203DDCCC1DBC22F900E2B559 /* LiveRenderingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 203DDCCB1DBC22F900E2B559 /* LiveRenderingUITests.swift */; };
+		203DDCDA1DBC237B00E2B559 /* PieView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 203DDCD91DBC237B00E2B559 /* PieView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		203DDCC71DBC22F800E2B559 /* LiveRenderingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LiveRenderingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		203DDCCB1DBC22F900E2B559 /* LiveRenderingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveRenderingUITests.swift; sourceTree = "<group>"; };
 		203DDCCD1DBC22F900E2B559 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		203DDCD91DBC237B00E2B559 /* PieView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PieView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			children = (
 				203DDCAB1DBC22F800E2B559 /* AppDelegate.swift */,
 				203DDCAD1DBC22F800E2B559 /* ViewController.swift */,
+				203DDCD91DBC237B00E2B559 /* PieView.swift */,
 				203DDCAF1DBC22F800E2B559 /* Main.storyboard */,
 				203DDCB21DBC22F800E2B559 /* Assets.xcassets */,
 				203DDCB41DBC22F800E2B559 /* LaunchScreen.storyboard */,
@@ -264,6 +267,7 @@
 			files = (
 				203DDCAE1DBC22F800E2B559 /* ViewController.swift in Sources */,
 				203DDCAC1DBC22F800E2B559 /* AppDelegate.swift in Sources */,
+				203DDCDA1DBC237B00E2B559 /* PieView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
